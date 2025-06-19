@@ -13,7 +13,7 @@ export default function InvitadosNoviaPage() {
   const [lista, setLista] = useState<Invitado[]>([])
 
   const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => {
     const target = e.target as HTMLInputElement
     const { name, value, type, checked } = target
