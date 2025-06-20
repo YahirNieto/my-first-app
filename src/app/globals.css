@@ -25,6 +25,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-input, textarea, select {
+input, textarea, select, table, th, td, tbody {
   @apply text-gray-800;
 }
